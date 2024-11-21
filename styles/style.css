@@ -1,0 +1,191 @@
+html {
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+/* top */
+
+.top {
+  font-family: "Montserrat", "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  background: #eee;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  padding: 0 5vw;
+  /* font-weight: 700; */
+}
+
+.top-contents {
+  margin: 0 5vw;
+  letter-spacing: .25rem;
+  font-size: 2rem;
+  /* padding: 0 5vw; */
+}
+
+/* .top-contents {
+  overflow: hidden;
+  color: rgba(0,0,0,.9);
+} */
+  /* white-space: nowrap; */
+
+/* Animation */
+/* .top-contents {
+  animation:
+    animated-text 3s linear 1s 1 normal both,
+    animated-cursor 600ms linear infinite;
+  } */
+
+/* text animation */
+/* @keyframes animated-text{
+  from{width: 0;}
+  to{width: 95vw;}
+} */
+
+@media screen and (min-width: 768px) {
+  .top-contents {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+/* introduce */
+
+.introduce {
+  background: #F9DBBD;
+  min-height: 100vh;
+  display: grid;
+  padding: 4vh 0 8vh;
+  /* place-content: center; */
+}
+
+.introduce-contents {
+  padding: 0 5vw;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.introduce-contents-title {
+  text-align: center;
+  margin: 32px auto;
+}
+
+.introduce-contents-image {
+  width: 160px;
+  margin: 32px auto;
+}
+
+.introduce-contents-message {
+  line-height: 1.8;
+}
+
+.introduce-contents-skillsets {
+  margin: 32px auto 0;
+  display: grid;
+  place-content: center;
+}
+
+.introduce-contents-skillsets-title {
+  font-size: 1.2rem;
+  font-weight: 700;;
+  text-align: center;
+  font-family: "Montserrat", "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.introduce-contents-skillsets-list {
+  list-style: none;
+  padding: 0;
+}
+
+.introduce-contents-skillsets-list-item {
+  margin: 16px auto;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-thickness: 0.4em;
+  text-decoration-color: rgba(30, 106, 255, 0.2);
+  text-underline-offset: -0.15em;
+  text-decoration-skip-ink: none;
+}
+
+/* skillsets */
+
+/* .skillsets {
+  background: #eea;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+} */
+
+/* works */
+
+.works {
+  /* background: #fff;
+  display: grid;
+  place-content: center; */
+  min-height: 100vh;
+  padding: 4vh 0;
+}
+
+.works-title {
+  text-align: center;
+  font-family: "Montserrat", "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 1.5rem;
+}
+
+.works-container {
+  display: grid;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.works-item {
+  margin: 32px auto;
+  padding: 0 10vw;
+  display: grid;
+  place-content: center;
+  max-width: 480px;
+}
+
+.works-item-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 8px auto 16px;
+}
+
+.works-item-visual {
+  width: 160px;
+  margin: 16px auto;
+  display: grid;
+  place-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .works-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .works-item {
+    padding: 0 2vw;
+    place-content: start;
+  }
+  .works-item-visual {
+    /* width: 160px;
+    margin: 16px auto;
+    display: grid; */
+    width: auto;
+    place-content: center;
+    height: 160px;
+  }
+  .works-item-visual-image {
+    max-height: 160px;
+  }
+}
+
+/* footer */
+
+.footer {
+  font-size: .8rem;
+  background: #0D0628;
+  color: #fff;
+  min-height: 80px;
+  display: grid;
+  place-content: center;
+}
