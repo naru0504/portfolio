@@ -11,34 +11,13 @@ html {
   display: grid;
   place-content: center;
   padding: 0 5vw;
-  /* font-weight: 700; */
 }
 
 .top-contents {
   margin: 0 5vw;
   letter-spacing: .25rem;
   font-size: 2rem;
-  /* padding: 0 5vw; */
 }
-
-/* .top-contents {
-  overflow: hidden;
-  color: rgba(0,0,0,.9);
-} */
-  /* white-space: nowrap; */
-
-/* Animation */
-/* .top-contents {
-  animation:
-    animated-text 3s linear 1s 1 normal both,
-    animated-cursor 600ms linear infinite;
-  } */
-
-/* text animation */
-/* @keyframes animated-text{
-  from{width: 0;}
-  to{width: 95vw;}
-} */
 
 @media screen and (min-width: 768px) {
   .top-contents {
@@ -54,7 +33,6 @@ html {
   min-height: 100vh;
   display: grid;
   padding: 4vh 0 8vh;
-  /* place-content: center; */
 }
 
 .introduce-contents {
@@ -105,21 +83,9 @@ html {
   text-decoration-skip-ink: none;
 }
 
-/* skillsets */
-
-/* .skillsets {
-  background: #eea;
-  min-height: 100vh;
-  display: grid;
-  place-content: center;
-} */
-
 /* works */
 
 .works {
-  /* background: #fff;
-  display: grid;
-  place-content: center; */
   min-height: 100vh;
   padding: 4vh 0;
 }
@@ -167,9 +133,6 @@ html {
     place-content: start;
   }
   .works-item-visual {
-    /* width: 160px;
-    margin: 16px auto;
-    display: grid; */
     width: auto;
     place-content: center;
     height: 160px;
