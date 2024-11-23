@@ -36,7 +36,7 @@ html {
 }
 
 .introduce-contents {
-  padding: 0 5vw;
+  padding: 0 10vw;
   max-width: 1024px;
   margin: 0 auto;
 }
@@ -94,6 +94,7 @@ html {
   text-align: center;
   font-family: "Montserrat", "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-size: 1.5rem;
+  margin: 32px auto 0;
 }
 
 .works-container {
@@ -103,7 +104,7 @@ html {
 }
 
 .works-item {
-  margin: 32px auto;
+  margin: 48px auto;
   padding: 0 10vw;
   display: grid;
   place-content: center;
@@ -118,7 +119,7 @@ html {
 }
 
 .works-item-visual {
-  width: 160px;
+  width: 200px;
   margin: 16px auto;
   display: grid;
   place-content: center;
